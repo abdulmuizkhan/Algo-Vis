@@ -17,6 +17,7 @@ function createbar(lent=25){
 ///////////////////////// fill Boxes /////////////////////////////////////////
 function fillbar(){
     createbar();
+    document.getElementById("output").innerHTML="";
     var ele=document.querySelectorAll(".boxes");
     for(var i=0;i<ele.length;i++){
         ele[i].innerHTML=arr[i];
