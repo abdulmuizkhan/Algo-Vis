@@ -99,7 +99,7 @@ async function lsearch(){
     var x=document.querySelector("#num");
     var num=parseInt(x.value);
     var ele=document.querySelectorAll(".boxes");
-    for(var i=0;i<ele.length;i++){ele[i].style.backgroundColor="aliceblue";}
+    for(var i=0;i<ele.length;i++){ele[i].style.backgroundColor="aliceblue";ele[i].style.opacity=1;}
     document.getElementById("output").innerHTML=""
     var ans=-1;
     for(var i=0;i<ele.length;i++){
